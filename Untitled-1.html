@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid orangered;
+        }
+        body{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <canvas width="800" height="500"></canvas>
+    <script>
+        const canvas = document.querySelector('canvas');
+        const ctx = canvas.getContext('2d');
+
+            //   ctx.fillStyle = '#FF0000';
+            //   ctx.fillRect(0, 0, 100, 100);
+
+            //   ctx.strokeStyle = 'green';
+            //   ctx.strokeRect(120, 10, 100, 200);
+
+            //   ctx.clearRect(0, 0, 50, 50);
+
+            // ctx.beginPath();
+            // ctx.lineWidth = 10;
+            // ctx.strokeStyle = 'blue';
+            // ctx.moveTo(150, 50);
+            // ctx.lineTo(300, 200);
+            // ctx.lineTo(500, 100);
+            // ctx.closePath();
+            // ctx.stroke();
+            // ctx.fill();
+
+            // ctx.fillStyle = 'white';
+            // ctx.fillRect(300, 200, 200, 50);
+            // ctx.fillStyle = 'red';
+            // ctx.fillRect(300, 250, 200, 50);
+
+            ctx.fillStyle = 'black';
+            ctx.fillRect(100, 250, 150, 20);
+            
+            ctx.fillStyle = 'black';
+            ctx.fillRect(255, 250, 6, 20);
+
+            ctx.fillStyle = 'black';
+            ctx.fillRect(265, 250, 6, 20);
+
+            ctx.fillStyle = 'black';
+            ctx.fillRect(520, 250, 150, 20);
+
+            ctx.fillStyle = 'white';
+            ctx.fillRect(540, 257, 20, 4);
+
+            ctx.fillStyle = 'white';
+            ctx.fillRect(630, 257, 20, 4);
+
+            ctx.fillStyle = 'white';
+            ctx.fillRect(638, 252, 4, 16);
+
+            ctx.fillStyle = 'black';
+            ctx.fillRect(675, 250, 6, 20);
+
+            ctx.fillStyle = 'black';
+            ctx.fillRect(685, 250, 6, 20);
+
+            ctx.fillStyle = 'black';
+            ctx.fillRect(475, 250, 40, 20);
+
+
+             
+             ctx.lineWidth = 10;
+             ctx.strokeStyle = 'red';
+             ctx.arc(200, 250, 160, 0, (Math.PI /180) * 360, true);
+             ctx.moveTo(110, 120);
+             ctx.lineTo(290, 380);
+             ctx.moveTo(510, 120);
+             ctx.lineTo(690, 380);
+             ctx.stroke();
+
+             ctx.beginPath();
+             ctx.lineWidth = 3;
+             ctx.strokeStyle = 'black';
+             ctx.arc(208, 240, 50, 0, (Math.PI /180) * 300, true);
+             ctx.stroke();
+             ctx.closePath();
+
+             ctx.beginPath();
+             ctx.lineWidth = 3;
+             ctx.strokeStyle = 'black';
+             ctx.arc(185, 200, 50, 0, (Math.PI /180) * 300, true);
+             ctx.stroke();
+             ctx.closePath();
+
+             ctx.beginPath();
+             ctx.lineWidth = 3;
+             ctx.strokeStyle = 'black';
+             ctx.arc(220, 240, 50, 0, (Math.PI /180) * 300, true);
+             ctx.stroke();
+             ctx.closePath();
+
+             ctx.beginPath();
+             ctx.lineWidth = 3;
+             ctx.strokeStyle = 'black';
+             ctx.arc(197, 200, 50, 0, (Math.PI /180) * 300, true);
+             ctx.stroke();
+             ctx.closePath();
+
+             ctx.beginPath();
+             ctx.lineWidth = 10;
+             ctx.strokeStyle = 'grey';
+             ctx.arc(495, 243, 10, 0, (Math.PI /180) * 360, true);
+             ctx.stroke();
+             ctx.closePath();
+
+             ctx.beginPath();
+             ctx.lineWidth = 10;
+             ctx.strokeStyle = 'grey';
+             ctx.arc(495, 278, 10, 0, (Math.PI /180) * 360, true);
+             ctx.stroke();
+             ctx.closePath();
+
+             ctx.beginPath();
+             ctx.lineWidth = 10;
+             ctx.strokeStyle = 'red';
+             ctx.arc(600, 250, 160, 0, (Math.PI /180) * 360, true);
+             ctx.stroke();
+             ctx.closePath();
+
+
+
+
+    </script>
+</body>
+</html>
